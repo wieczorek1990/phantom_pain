@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.files       = ["lib/phantom_pain.rb"]
   s.homepage    = "https://github.com/wieczorek1990/phantom_pain"
   s.license     = 'GPL-3.0'
-  s.add_runtime_dependency "phantomjs", "~> 0"
-  s.add_runtime_dependency "selenium-webdriver", "~> 0"
-  s.add_runtime_dependency "tor", "~> 0"
-  s.add_runtime_dependency "webdriver-user-agent", "~> 0"
+  s.add_runtime_dependency "phantomjs", "~> 2"
+  s.add_runtime_dependency "selenium-webdriver", "~> 2"
+  s.add_runtime_dependency "tor", "~> 0.1"
+  s.add_runtime_dependency "webdriver-user-agent", "~> 7"
 end
 
