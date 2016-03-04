@@ -1,5 +1,5 @@
-require_relative 'cookie_tor_controller'
-require_relative 'web_driver_factory'
+require_relative 'phantom_pain/cookie_tor_controller'
+require_relative 'phantom_pain/web_driver_factory'
 
 class PhantomPainFactory
   def initialize(control_auth_cookie_path, proxy_host, proxy_port)
