@@ -2,7 +2,8 @@ require_relative 'phantom_pain/cookie_tor_controller'
 require_relative 'phantom_pain/web_driver_factory'
 
 class PhantomPainFactory
-  def initialize(control_auth_cookie_path, proxy_host, proxy_port)
+  def initialize(control_auth_cookie_path = "#{Dir.home}/.tor/control_auth_cookie",
+                 proxy_host = '127.0.0.1', proxy_port = '9050')
     @tor_controller = CookieTorController.new control_auth_cookie_path
     @web_driver_factory = WebDriverFactory.new(proxy_host, proxy_port)
   end
