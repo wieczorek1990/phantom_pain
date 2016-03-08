@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 Gem::Specification.new do |s|
   s.name        = 'phantom_pain'
   s.version     = '0.0.1'
